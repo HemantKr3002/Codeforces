@@ -10,7 +10,7 @@ int main() {
     while(t--){
         int a,b,c,n;
         cin >> a >> b >> c >> n;
-        //Approach 1:
+        //Approach 1:(can also get the answer of distribution)
         // long long total = a + b + c + n;
         // int maxi = max({a,b,c});
         // int mini = min({a,b,c});
