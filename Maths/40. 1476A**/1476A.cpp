@@ -21,6 +21,13 @@ int main() {
         //If the tmp can be distributed evenly then return tmp/n which would end up being 1
         //else we would have to increase the tmp % n numbers by one
         (tmp % n) ? out((tmp / n) + 1) : out(tmp / n);
+
+
+       //Alterntive:
+       long long cf = (n + k - 1) / k;
+       k *= cf;
+       
+       cout << (k + n - 1) / n << endl;
     }
     return 0;
 }
